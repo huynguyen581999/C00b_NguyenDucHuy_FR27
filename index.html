@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./script/script.js"></script>
+    <title>C00b</title>
+</head>
+
+<body>
+    <div class="counter">
+        <h2>Bộ đếm Kmin</h2>
+        <form>
+            <fieldset>
+                <legend>Thiết lập</legend>
+                <div className="container">
+                    <label>
+                        Số bắt đầu
+                        <input id="input_start" name="start" type="number" value="0" size="15" onChange="" />
+                    </label>
+
+                    <label>
+                        <input id="input_end" name="end" type="number" value="100" onChange="" />
+                        Số kết thúc
+                        </labe>
+                </div>
+                <p className="error-message">Lỗi: ...</p>
+                <input id="btn_Apply" type="button" value="Áp dụng" onClick="" />
+            </fieldset>
+        </form>
+        <div class="num">
+            <div>
+                <span id="descrease" class="btn-change">&lt;</span>
+                <span id="contentShow">1</span>
+                <span id="ascending" class="btn-change">&gt;</span>
+            </div>
+            <button id="btn_Play" class="btn btn--blue" onclick="">Play</button>
+            <button id="btn_Pause" class="btn btn--blue">Pause</button>
+        </div>
+        <div class="counter__actions">
+            <button id="btn_Hello" class="btn btn--yellow" onclick="">Xin chào</button>
+            <button id="btn_Goodbye" class="btn btn--blue">Tạm biệt</button>
+        </div>
+    </div>
+</body>
+
+</html>
